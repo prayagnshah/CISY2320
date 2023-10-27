@@ -8,14 +8,22 @@
 
         ' Check if the input is not empty
         Dim numericValue As Double
-        If Double.TryParse(input, numericValue) Then
-            MessageBox.Show("This is your input ", input)
+        If String.IsNullOrEmpty(input) Or Not Double.TryParse(input, numericValue) Then
+            MessageBox.Show("Please input a valid numeric value for the unit price")
+            Return ' Exit the function early
+        End If
 
-        Else
-            MessageBox.Show("Please input a numeric value for the unit price")
+        ' Check if ComboBox1 and ComboBox2 are set to valid values
+        If ComboBox1.SelectedItem = 0 Then
+            MessageBox.Show("Please select a valid quantity")
+            Return
         End If
 
 
+        If ComboBox2.SelectedItem = 0 Then
+            MessageBox.Show("Please select a valid province")
+            ' Exit the function early
+        End If
 
     End Sub
 
@@ -28,12 +36,10 @@
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        Select Case ComboBox1.Text
-            Case "1", "2"
-                Label1.Text = "There are 31 days" & ComboBox1.SelectedItem.ToString()
-            Case Else
-                Label1.Text = "" ' Clear the label if a value other than 1 or 2
 
-        End Select
+    End Sub
+
+    Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
+
     End Sub
 End Class

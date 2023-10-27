@@ -22,3 +22,15 @@ P:\GitHub\VB.NET-Project1\WindowsApp\WindowsApp\obj\Debug\WindowsApp.vbproj.Core
 P:\GitHub\VB.NET-Project1\WindowsApp\WindowsApp\obj\Debug\WindowsApp.exe
 P:\GitHub\VB.NET-Project1\WindowsApp\WindowsApp\obj\Debug\WindowsApp.xml
 P:\GitHub\VB.NET-Project1\WindowsApp\WindowsApp\obj\Debug\WindowsApp.pdb
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe.config
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\bin\Debug\WindowsApp.pdb
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\bin\Debug\WindowsApp.xml
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.vbprojAssemblyReference.cache
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.Form1.resources
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.Resources.resources
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.vbproj.GenerateResource.cache
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.vbproj.CoreCompileInputs.cache
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.exe
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.xml
+P:\GitHub\VB.NET-Project1\CISY2320\WindowsApp\WindowsApp\obj\Debug\WindowsApp.pdb

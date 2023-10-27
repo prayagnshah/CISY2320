@@ -44,6 +44,7 @@ Partial Class Form1
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
         Me.ComboBox1.Location = New System.Drawing.Point(331, 100)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
@@ -52,6 +53,7 @@ Partial Class Form1
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"Alberta", "British Columbia", "Manitoba", "New Brunswick", "Newfoundland and Labrador", "Northwest Territories", "Nova Scotia", "Nunavut", "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"})
         Me.ComboBox2.Location = New System.Drawing.Point(331, 149)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
