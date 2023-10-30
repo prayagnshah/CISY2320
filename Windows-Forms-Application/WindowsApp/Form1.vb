@@ -9,7 +9,7 @@
         ' Check if the input is not empty
         Dim numericValue As Double
         If String.IsNullOrEmpty(input) Or Not Double.TryParse(input, numericValue) Then
-            MessageBox.Show("Please input a valid numeric value for the unit price")
+            MessageBox.Show("You must input a numeric value for the unit price")
             Return
         End If
 
@@ -33,6 +33,7 @@
         ' Getting the selected province into string
         Dim selectedProvince As String = ComboBox2.SelectedItem.ToString()
 
+        ' Check ComboBox2 dropdown is selected
         If ComboBox2.SelectedItem IsNot Nothing Then
             selectedProvince = ComboBox2.SelectedItem.ToString()
         End If
@@ -54,7 +55,7 @@
         ' Calculate the total with Tax
         Dim taxableAmount As Double = total + taxAmount
 
-       
+        ' Displaying message at end after all the inputs 
         MessageBox.Show("Subtotal before GST/HST: " & total.ToString("C") & vbCrlf &
                         "GST/HST: " & taxAmount.ToString("C") & vbCrlf &
                         "Total with GST/HST: " & taxableAmount.ToString("C")) 
