@@ -15,10 +15,12 @@
 
         ' Check if ComboBox1 and ComboBox2 are set to valid values
         If ComboBox1.SelectedItem = 0 Then
-            MessageBox.Show("Please select a valid quantity")
+            MessageBox.Show("You must choose a quantity")
             Return
+        Else If ComboBox2.SelectedIndex = -1 Then
+            MessageBox.Show("You must select a province")
+            Exit Sub
         End If
-
 
        
 
@@ -31,12 +33,16 @@
         ' Getting the selected province into string
         Dim selectedProvince As String = ComboBox2.SelectedItem.ToString()
 
+        If ComboBox2.SelectedItem IsNot Nothing Then
+            selectedProvince = ComboBox2.SelectedItem.ToString()
+        End If
+
         ' Calculate tax rate based on province selection
         Dim taxRate As Double
         Select Case selectedProvince
             Case "Ontario"
                 taxRate = 0.13
-            Case "New Brunswick", "Newfoundland and Labrador", "Nova Scotia", "PEI"
+            Case "New Brunswick", "Newfoundland and Labrador", "Nova Scotia", "Prince Edward Island"
                 taxRate = 0.15
             Case Else
                 taxRate = 0.05
