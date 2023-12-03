@@ -1,0 +1,10 @@
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows Forms Application.csproj.AssemblyReference.cache
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows_Forms_Application.Form1.resources
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows_Forms_Application.Properties.Resources.resources
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows Forms Application.csproj.GenerateResource.cache
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows Forms Application.csproj.CoreCompileInputs.cache
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\bin\Debug\Windows Forms Application.exe.config
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\bin\Debug\Windows Forms Application.exe
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\bin\Debug\Windows Forms Application.pdb
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows Forms Application.exe
+P:\VB.NET\Project-2\Windows Forms Application\Windows Forms Application\obj\Debug\Windows Forms Application.pdb
